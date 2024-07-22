@@ -1,5 +1,5 @@
 # Get list of running processes using PsList
-param ($mode=1, $excludeProcesses, $outputFile='out.txt', $hashInputFile, $sortType='WS', $numProcesses=5)
+param ($mode=1, $excludeProcesses, $outputFile='out.log', $hashInputFile, $sortType='WS', $numProcesses=5)
 
 $currTime = Get-Date
 
